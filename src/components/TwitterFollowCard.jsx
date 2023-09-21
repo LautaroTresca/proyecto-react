@@ -8,7 +8,6 @@ const text = isFollowing ? "Siguendo" : "Seguir"
 const buttonClassName = isFollowing
 ? "tw-followCard-button-isfollowing" 
 : "tw-followCard-button"
-
 const handleClick = () => {
     setIsFollowing(!isFollowing)
 }
